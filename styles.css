@@ -1,0 +1,146 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: League Spartan;
+  font-size: 15px;
+}
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-color: hsl(210, 46%, 95%);
+}
+.content {
+  height: 80%;
+  width: 70%;
+  justify-content: center;
+  gap: 20px;
+  column-gap: 20px;
+  align-items: center;
+  display: grid;
+  margin: auto;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-columns: repeat(4, 1fr);
+  grid-template-areas:
+    "one one two three"
+    "four five five three";
+}
+.daniel {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: hsl(263, 55%, 52%);
+  color: white;
+  grid-area: one;
+  font-size: 15px;
+  width: 85%;
+  height: 80%;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+.profile {
+  align-items: center;
+  display: flex;
+}
+.info {
+  display: block;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile img {
+  margin-right: 10px;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+}
+.info h3 {
+  color: white;
+  margin-top: 0px;
+}
+.info h2,
+.info h3 {
+  margin: 0;
+}
+.jonathan {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: hsl(217, 19%, 35%);
+
+  color: white;
+  grid-area: two;
+  font-size: 15px;
+  width: 70%;
+  height: 70%;
+  padding: 20px 50px;
+  border-radius: 10px;
+}
+.kira {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  grid-area: three;
+  font-size: 15px;
+  width: 70%;
+  height: 90%;
+  padding: 20px 50px;
+}
+.jeanette {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: white;
+  border-radius: 10px;
+  color: black;
+  grid-area: four;
+  font-size: 15px;
+  width: 70%;
+  height: 60%;
+  padding: 20px 50px;
+}
+.patrick {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: hsl(219, 29%, 14%);
+  border-radius: 10px;
+
+  color: white;
+  grid-area: five;
+  font-size: 15px;
+  width: 85%;
+  height: 70%;
+  padding: 20px 50px;
+}
+.kira h3 {
+  color: black;
+}
+.jeanette h3 {
+  color: black;
+}
+h3 {
+  opacity: 50%;
+  font-weight: lighter;
+}
+.kira p {
+  font-size: 16px;
+}
+.jeanette h4,
+p {
+  color: hsl(217, 19%, 35%);
+}
+.kira h4,
+p {
+  color: hsl(217, 19%, 35%);
+}
+.jonathan p {
+  color: hsl(0, 0%, 81%);
+}
